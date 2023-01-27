@@ -30,10 +30,10 @@ let click_event = document
       colorGreen();
     } else if (input_result.value >= 82 && input_result.value <= 85) {
       result_box.innerHTML = "You got CGPA 3.33";
-      colorOrange();
+      colorGreen();
     } else if (input_result.value >= 78 && input_result.value <= 81) {
       result_box.innerHTML = "You got CGPA 3.00";
-      colorOrange();
+      colorGreen();
     } else if (input_result.value >= 74 && input_result.value <= 77) {
       result_box.innerHTML = "You got CGPA 2.67";
       colorOrange();
